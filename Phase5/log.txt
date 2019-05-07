@@ -1,0 +1,194 @@
+2018-04-23 12:43:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/01/26/14/00/subjects/ACCT.html> (referer: http://comp4332.com/trial/2017/Spring/01/26/14/00/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\phase3\dataCrawling\spiders\ustWebpageSpider.py", line 253, in parse_subjects
+    "dateAndTime": '\n'.join(oneSection['dateAndTime']),
+KeyError: 'dateAndTime'
+2018-04-23 12:44:02 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/01/26/14/00/subjects/ACCT.html> (referer: http://comp4332.com/trial/2017/Spring/01/26/14/00/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\phase3\dataCrawling\spiders\ustWebpageSpider.py", line 253, in parse_subjects
+    "dateAndTime": '\n'.join(oneSection['dateAndTime']),
+KeyError: 'dateAndTime'
+2018-04-30 21:37:19 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/02/03/12/00/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 46, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:37:19 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/02/01/11/00/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 46, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:37:19 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/02/01/11/30/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 46, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:37:19 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/01/26/14/00/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 46, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:39:25 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/02/03/12/00/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 48, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:39:25 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/01/26/14/00/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 48, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:39:25 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/02/01/11/00/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 48, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:39:25 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/02/01/11/30/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 48, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:40:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/02/03/12/00/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 48, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:40:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/01/26/14/00/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 48, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:40:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/02/01/11/00/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 48, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable
+2018-04-30 21:40:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/02/01/11/30/> (referer: http://comp4332.com/trial/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\yu\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\Phase5\dataCrawling\spiders\ustWebpageSpider.py", line 48, in parse_snapshot
+    if(("COMP" in a) or ("RMBI" in a)):
+TypeError: argument of type 'Selector' is not iterable

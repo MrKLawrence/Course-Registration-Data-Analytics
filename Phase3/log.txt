@@ -1,0 +1,14 @@
+2018-04-23 12:43:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/01/26/14/00/subjects/ACCT.html> (referer: http://comp4332.com/trial/2017/Spring/01/26/14/00/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\phase3\dataCrawling\spiders\ustWebpageSpider.py", line 253, in parse_subjects
+    "dateAndTime": '\n'.join(oneSection['dateAndTime']),
+KeyError: 'dateAndTime'
+2018-04-23 12:44:02 [scrapy.core.scraper] ERROR: Spider error processing <GET http://comp4332.com/trial/2017/Spring/01/26/14/00/subjects/ACCT.html> (referer: http://comp4332.com/trial/2017/Spring/01/26/14/00/)
+Traceback (most recent call last):
+  File "c:\users\yu\anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\yu\Documents\HKUST_spring_2018\comp4332\project\Course-Registration-Data-Analytics\phase3\dataCrawling\spiders\ustWebpageSpider.py", line 253, in parse_subjects
+    "dateAndTime": '\n'.join(oneSection['dateAndTime']),
+KeyError: 'dateAndTime'
