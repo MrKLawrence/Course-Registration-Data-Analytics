@@ -4,7 +4,7 @@ Big Data Mining and Management
 Project: Course Registration Data Analytics
 #This repository is for internal use only. 
     
-I. Motivation
+## Motivation
 
 There are a hierarchy of files for data crawling:
 In main.py inside our working directory:
@@ -12,7 +12,7 @@ Given a website which contains the information about course enrollment status in
 this main.py file can provide the following features:
 Find a list of courses which matched predictive criteria.
 
-II. File Description:
+## File Description
 
 Here are a list of Python files (with the following file structure, excluding the .pyc files containing the Python bytecode for interpretation) inside the folder "Phase6":
 
@@ -91,17 +91,17 @@ Here are a list of Python files (with the following file structure, excluding th
 
     For the training in each model, the main() function in each model can be called to training each model. 
 
-III. Tests/Key notes of the System:
+## Tests/Key notes of the System:
 
 If the "mongod" MongoDB daemon is not set up when running the Python program during data crawling, the database connection is   refused and therefore prevents the program from running properly.
 
-IV. Installation/ System Requirements.
+## Installation/ System Requirements
 
 This codes run on python 3 and need the connection with "localhost:27017". It needs the following library:
 MongoClient, pymongo, pandas, numpy, datetime, re, pprint
 Both of the Python program "main.py" and the NoSQL MongoDB server "mongod" should be executed at the same time to avoid problems of failed connection.
 
-V. Contributors
+## Contributors
 
-    - Eric YU
-    - Kin LEUNG
+1. Eric YU
+2. Kin LEUNG
