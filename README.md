@@ -91,7 +91,9 @@ Here are a list of Python files (with the following file structure, excluding th
 
     For the training in each model, the main() function in each model can be called to training each model. 
 
-## Tests/Key notes of the System:
+This is just for showcase only. More developed models and/or APIs are upon request.
+
+## Tests/Key notes of the System
 
 If the "mongod" MongoDB daemon is not set up when running the Python program during data crawling, the database connection is   refused and therefore prevents the program from running properly.
 
