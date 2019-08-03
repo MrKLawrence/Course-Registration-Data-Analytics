@@ -14,30 +14,8 @@ Find a list of courses which matched predictive criteria.
 
 II. File Description:
 
-Here are a list of Python files (with the following file structure, excluding the .pyc files containing the Python bytecode for interpretation) and the readme.txt file:
+Here are a list of Python files (with the following file structure, excluding the .pyc files containing the Python bytecode for interpretation) inside the folder "Phase6":
 
-Phase6
-|__ dataCrawling/
-    |__ __init__.py
-    |__ items.py
-    |__ middlewares.py
-    |__ pipelines.py
-    |__ settings.py
-    |__ spiders/
-        |__ __init__.py
-        |__ ustWebpageSpider.py
-|__ data_structure.py
-|__ dataToCsv.py
-|__ main.py
-|__ model1.py
-|__ model2.py
-|__ model3.py
-|__ model4.py
-|__ model5.py
-|__ log.txt
-|__ readme.txt
-|__ url.txt
-|__ scrapy.cfg
 
     To execute the program correctly, the following procedure is recommended to follow:
 	First, set up a database for mongo server by cmd:
